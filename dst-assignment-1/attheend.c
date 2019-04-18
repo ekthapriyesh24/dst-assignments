@@ -1,3 +1,17 @@
+/*Given n elements, inserted in the same order at the end of the linked list. Delete the largest integer in the linked list and move it to a new linked list. Do this n times, at each iteration, moving the largest integer at the rear of the new linked list. Print the new linked list.
+
+Input format: Number of test cases. Each test case followed by the number of elements (n) and the list of elements.
+
+Output format: For each test case 1 line with all the elements separated by a space.
+SAMPLE INPUT
+2
+3
+4 6 3
+5
+1 4 2 1 4
+SAMPLE OUTPUT
+6 4 3 
+4 4 2 1 1 */
 #include<stdio.h>
 #include<limits.h>
 struct s

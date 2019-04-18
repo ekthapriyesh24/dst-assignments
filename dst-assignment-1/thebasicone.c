@@ -1,3 +1,19 @@
+/*Given n elements, inserted in the same order at the end of the linked list. Print the linked list and the sum of all elements in the same order.
+
+Input format: Number of test cases. Each test case followed by the number of elements (n) and the list of elements.
+
+Output format: For each test case 2 lines, the first line prints all the elements separated by a space and the second line prints the sum.
+
+SAMPLE INPUT 
+2
+3
+4 6 3
+5
+1 4 2 1 4
+SAMPLE OUTPUT 
+4 6 3 13
+1 4 2 1 4 12
+*/
 #include<stdio.h>
 struct s
 {

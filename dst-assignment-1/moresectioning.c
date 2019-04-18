@@ -1,3 +1,17 @@
+/*Solve the "sectioning" question for k sections instead of just 3. The inputs and outputs remain the same, except the first line of input is the number of elements followed by k. Use an array of linked lists.
+SAMPLE INPUT
+2
+6 2
+7 8 3 1 4 9 
+8 4
+4 11 8 15 3 1 6 13
+SAMPLE OUTPUT
+7 3 9 
+8 1 4 
+4 3 1 6 
+11 
+8 13 
+15*/ 
 #include<stdio.h>
 #include<string.h>
 #include<limits.h>

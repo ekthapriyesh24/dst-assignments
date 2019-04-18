@@ -1,3 +1,32 @@
+/*It is the time of the Data Structures tutorials and the students are standing outside the classroom. All arriving students are inserted in a stack as they appear. Thereafter, a TA comes and takes k students from the stack and puts them into 1 classroom, and so on till all classrooms are full. The tutorials finish on time and students of the first classroom exit first. The students exit such that the last student entering is sitting at the end of the classroom and is therefore also the last student to exit the classroom. Print the order in which the students exit the classroom. Note: it is compulsory to store all data in mentioned data structures at all point of time.
+
+Input Format: The first input is the number of test cases. Thereafter, each test case starts with n, the number of students and k, the number of students per classroom. Thereafter, the input has n lines, each representing a student with a roll number only.
+
+Output Format: For every test case n lines, each line printing the roll number of a student in the order of exit
+SAMPLE INPUT
+1
+10 3
+IIT2018001
+IIT2018002
+IIT2018003
+IIT2018004
+IIT2018005
+IIT2018006
+IIT2018007
+IIT2018008
+IIT2018009
+IIT2018010
+SAMPLE OUTPUT
+IIT2018008
+IIT2018009
+IIT2018010
+IIT2018005
+IIT2018006
+IIT2018007
+IIT2018002
+IIT2018003
+IIT2018004
+IIT2018001*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

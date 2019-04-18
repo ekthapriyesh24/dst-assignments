@@ -1,3 +1,18 @@
+/*Make a program that solves for an infix expression.
+
+Input Format: The first input is the number of test cases. Thereafter, each input lists an infix expression.
+
+Output Format: For every input 1 line printing the result of the infix expression. The output and all intermediate values will always be integers only.
+
+SAMPLE INPUT
+3
+123+1*2
+4*(2+3)+4
+1*(2*(3+5)+1)
+SAMPLE OUTPUT
+125
+24
+17*/
 #include<stdio.h>
 #include<stdlib.h>
 #define ppd(x) printf("%d\n",x)

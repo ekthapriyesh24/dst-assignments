@@ -1,3 +1,32 @@
+/*A student in a university has a roll number and marks in some test. The student records are being published so as to be admired by all. First all records are enqueued in a queue in the ascending order of the roll number. Thereafter, the records are taken one by one out of the queue. Students with marks between 100 (inclusive)-90 (exclusive) are pushed into a stack, while the remaining are enqueued back in a new queue. Thereafter, in the next iteration, students with marks between 90 (inclusive)-80 (exclusive) are put into the stack, and the rest are enqueued again in a new queue. The process goes on till all student records are processed. The stack is emptied and the records are printed on the screen as they are popped.
+
+Input Format: The first input is T, the number of test cases. Each test case starts with n, the number of students. Followed by the roll number and marks of the student in 1 line each.
+
+Output Format: n lines for every test case, each printing the roll number and marks of the student in the stated order.
+SAMPLE INPUT
+1
+10
+IIT2018006 27
+IIT2018002 87
+IIT2018004 98
+IIT2018008 49
+IIT2018001 67 
+IIT2018009 55
+IIT2018010 74
+IIT2018007 75
+IIT2018003 45
+IIT2018005 69
+SAMPLE OUTPUT
+IIT2018006 27
+IIT2018008 49
+IIT2018003 45
+IIT2018009 55
+IIT2018005 69
+IIT2018001 67
+IIT2018010 74
+IIT2018007 75
+IIT2018002 87
+IIT2018004 98*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

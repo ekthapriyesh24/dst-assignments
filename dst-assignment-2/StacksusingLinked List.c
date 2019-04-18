@@ -1,3 +1,17 @@
+/*Stacks using Linked List
+SAMPLE INPUT
+1
+6
+push 1
+push 2
+push 3
+pop
+pop
+top
+SAMPLE OUTPUT
+3
+2
+1*/
 #include<stdio.h>
 #include<stdlib.h>
 #define ppd(x) printf("%d\n",x)

@@ -1,3 +1,17 @@
+/*Queue using Linked List
+SAMPLE INPUT
+1
+6
+enqueue 1
+enqueue 2
+enqueue 3
+dequeue
+dequeue
+front
+SAMPLE OUTPUT
+1
+2
+3*/
 #include<stdio.h>
 #include<stdlib.h>
 #define ppd(x) printf("%d\n",x)

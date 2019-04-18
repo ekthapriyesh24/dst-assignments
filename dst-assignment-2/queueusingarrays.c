@@ -1,3 +1,18 @@
+/*queue using arrays
+SAMPLE INPUT
+1
+6 2
+enqueue 1
+enqueue 2
+enqueue 3
+dequeue
+dequeue
+front
+SAMPLE OUTPUT
+queue overflow
+1
+2
+queue underflow*/
 #include<stdio.h>
 #include<stdlib.h>
 #define ppd(x) printf("%d\n",x)
