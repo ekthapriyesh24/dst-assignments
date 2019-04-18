@@ -1,3 +1,24 @@
+/*Program a stack of integers. The stack should be implemented by using arrays.
+
+Input Format: The first input is the number of test cases. Thereafter each test case starts with n, the number of inputs. Thereafter, each test case starts with n, the number of commands and s, the maximum stack size (the maximum number of elements that can be stored in the stack at any point of time). Thereafter, each of the following n lines have commands “push a” meaning push integer a in the stack; “pop” meaning pop an item from the stack and print on the screen; and “top”, meaning print the element at the top of the stack on the screen.
+
+An attempt to add an element in an already full stack gives a “stack overflow” error printed on the screen. An attempt to pop or access an element in an already empty stack gives a “stack underflow” error printed on the screen.
+
+Output Format: As above
+SAMPLE INPUT
+1
+6 2
+push 1
+push 2
+push 3
+pop
+pop
+top
+SAMPLE OUTPUT
+stack overflow
+2
+1
+stack underflow*/
 #include<stdio.h>
 #include<stdlib.h>
 #define ppd(x) printf("%d\n",x)

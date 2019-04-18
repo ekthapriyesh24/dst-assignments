@@ -1,3 +1,28 @@
+/*In the rooming question, the TA instead sends all students to classrooms in a circular manner. The first student entering goes to the first classroom, the second student entering goes to the second classroom and so on. There are k classrooms with infinite capacity. Implement using a circular linked list of stacks.
+SAMPLE INPUT
+1
+10 3
+IIT2018001
+IIT2018002
+IIT2018003
+IIT2018004
+IIT2018005
+IIT2018006
+IIT2018007
+IIT2018008
+IIT2018009
+IIT2018010
+SAMPLE OUTPUT
+IIT2018001
+IIT2018004
+IIT2018007
+IIT2018010
+IIT2018003
+IIT2018006
+IIT2018009
+IIT2018002
+IIT2018005
+IIT2018008*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

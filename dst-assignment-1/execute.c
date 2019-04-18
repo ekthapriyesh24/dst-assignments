@@ -1,3 +1,25 @@
+/*Instructions are given to your program, which are of 3 types. “add 3 4 5 3” means “add” a new linked list with 3 elements, namely 4 5 3 to the end of the “linked list of linked lists”. “delete 3” means delete the first occurrence of 3 in the “linked list of linked lists” and “print”, which means print the linked list of linked lists, 1 linked list at every line in a space separated format.
+
+Input Format: The first line is the number of test cases. Each test case starts with n, the number of commands, followed by n commands.  
+
+SAMPLE INPUT
+1
+8
+add 4 1 4 6 2
+add 2 13 12
+add 3 8 10 2
+print
+delete 4
+delete 10
+delete 8
+print 
+SAMPLE OUTPUT
+1 4 6 2 
+13 12 
+8 10 2 
+1 6 2 
+13 12 
+2*/ 
 #include<stdio.h>
 #include<limits.h>
 struct ll

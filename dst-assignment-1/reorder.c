@@ -1,3 +1,19 @@
+/*Given n elements, inserted in the same order at the end of the linked list. You are also given another n integers called order, bearing a permutations of the sequence [0, 1, 2, 3, 4. … n-1]. Reorder the linked list as per the order. Print the new linked list. Consider the original linked list is X=23-> 64->16-> 86]. Suppose the order = [3, 1, 2, 0]. This means the new linked list with have the 3rd element (86), followed by 1st element (64), followed by 2nd element (16), followed by 0th element (23), that is 86->64->16->23. Note: you must store order as a separate linked list and not an array.
+
+Input format: Number of test cases. Each test case followed by the number of elements (n), the list of elements and order. 
+
+Output format: For each test case 1 line with all the elements separated by a space.
+SAMPLE INPUT
+2
+3
+4 6 3
+2 1 0
+5
+1 4 2 1 4
+3 1 0 2 4
+SAMPLE OUTPUT
+3 6 4 
+1 4 1 2 4*/ 
 #include<stdio.h>
 #include<limits.h>
 struct s

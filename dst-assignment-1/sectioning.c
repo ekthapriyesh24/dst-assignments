@@ -1,3 +1,21 @@
+/*In a university, the students have integer roll numbers. The roll number denotes the importance of the student. The students need to be divided into 3 sections, such that the total importance of the section (sum of the importances of all students in the section) is the same. This will be done in a greedy manner. The students come one by one, and every student is directed to the section which has the least importance (sum of all roll numbers) so far. In case of a tie, preferences are section A, followed by section B, followed by section C.
+
+Input format: Number of test cases. Each test case followed by the number of elements (n), the list of elements and order. 
+
+Output format: For each test case 3 lines, first printing section A students, 2nd printing section B students and 3rd printing section C students.
+SAMPLE INPUT
+2
+6
+7 8 3 1 4 9 
+8
+4 11 8 15 3 1 6 13
+SAMPLE OUTPUT
+7 9 
+8 
+3 1 4 
+4 15 
+11 1 13 
+8 3 6 */
 #include<stdio.h>
 #include<limits.h>
 struct s

@@ -1,3 +1,17 @@
+/*Given n elements, inserted in the same order at the end of the linked list. Delete the first occurrence of the largest and the smallest element of the linked list. Print the linked list after deletions.
+
+Input format: Number of test cases. Each test case followed by the number of elements (n) and the list of elements.
+
+Output format: For each test case 1 line with all the elements separated by a space.
+SAMPLE INPUT
+2
+3
+4 6 3
+5
+1 4 2 1 4
+SAMPLE OUTPUT
+4 
+2 1 4*/ 
 #include<stdio.h>
 #include<limits.h>
 struct s

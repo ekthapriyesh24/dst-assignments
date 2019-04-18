@@ -1,4 +1,29 @@
- #include<stdio.h>
+/*In the RoundRobinRooming question the exit order needs to be changed because the students have to assemble roll number wise for the evaluation. However, the last person entering the class room should be the first student to leave the classroom. Hence the instructor adopts a rule that the student with the least roll number at the top of the stack of every classroom will be allowed to exit.
+SAMPLE INPUT
+1
+10 3
+IIT2018001
+IIT2018005
+IIT2018010
+IIT2018004
+IIT2018002
+IIT2018008
+IIT2018009
+IIT2018007
+IIT2018003
+IIT2018006
+SAMPLE OUTPUT
+IIT2018001
+IIT2018004
+IIT2018005
+IIT2018002
+IIT2018007
+IIT2018009
+IIT2018006
+IIT2018010
+IIT2018008
+IIT2018003*/
+#include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #define ppd(x) printf("%d\n",x)

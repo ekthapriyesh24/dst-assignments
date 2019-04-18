@@ -1,3 +1,15 @@
+/*Sort an array of integers using 2 stacks only.
+
+Input format: The first input is the number of test cases. Thereafter, each test case starts with n, the number of inputs, followed by n integers in a single line.
+
+Output Format: For every input 1 line, the list of integers in a single line.
+
+SAMPLE INPUT
+1
+7
+7 4 9 7 2 5 1
+SAMPLE OUTPUT
+1 2 4 5 7 7 9*/
 #include<stdio.h>
 #include<stdlib.h>
 #define ppd(x) printf("%d\n",x)
