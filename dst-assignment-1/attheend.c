@@ -19,6 +19,7 @@ struct s
     int data;
     struct s *next;
 };
+//Struct s is used a node
 void del(struct s** a,int value)
 {
     struct s* node=(struct s*)(malloc(sizeof(struct s)));
